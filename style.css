@@ -1,0 +1,144 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  font-family: Red Hat Display;
+}
+
+.image-guy {
+  width: 320px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 320px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  padding-bottom: 35px;
+  transform:translateY(60px);
+}
+.title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 24px;
+}
+.subtitle {
+  color: hsl(223, 47%, 23%);
+  width: 250px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.plan img {
+  height: 50px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.annual {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+.year {
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+  opacity: 0.5;
+}
+.change {
+  font-weight: 700;
+  font-size: 14px;
+}
+.flexbox :first-child {
+  margin-bottom: -15px;
+}
+.proceed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.pay {
+  border: none;
+  width: 280px;
+  padding: 15px 25px 15px 25px;
+  font-size: 15px;
+  background-color: hsla(244, 100%, 53%, 0.918);
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.order {
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.8;
+  color: hsl(224, 23%, 55%);
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+  }
+  .image-guy {
+    width: 410px;
+  }
+  .card-container {
+  width: 410px;
+  padding-bottom:115px ;
+  }
+  .pay{
+    padding: 15px 20px 15px 20px;
+    width:320px;
+    font-size: 18px;
+  }
+  .title{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .subtitle{
+    font-size: 18px;
+    width: 330px;
+  }
+  .annual{
+    font-size: 18px;
+  }
+  .year{
+    font-size: 18px;
+  }
+  .change{
+    font-size: 17px;
+
+  }
+  .order{
+    font-size: 18px;
+  }
+  
+}
